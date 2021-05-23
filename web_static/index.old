@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarbonEx</title>
+</head>
+<body>
+<button id="start">Start</button>
+<button id="locate">Locate</button>
+<p id="map-link"></p>
+<p id="rssi"></p>
+
+<input type="text" placeholder="Kam greš?">
+<button id="lokacija">Najdi</button>
+
+
+<script type="text/javascript" src="js/webBLE.js"></script>
+<script type="text/javascript" src="js/webLocation.js"></script>
+</body>
+</html>

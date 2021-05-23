@@ -1,0 +1,123 @@
+.carbonex
+	{
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#4a707a;
+    font-size: 2em;
+    text-decoration: underline;
+  text-decoration-color: #7697a0;
+
+	}
+
+.carbonexCarb
+	{
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#4a707a;
+    font-size: 1em;
+    text-decoration: underline;
+	}
+
+.carbonexPisava
+	{
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#4a707a;
+    font-size: 1em;
+	}
+
+.carbonexMeni
+	{
+		background-color: #94b0b7;
+	}
+
+.meniPisava
+	{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#ddddda;
+    font-size: 1em;
+	}
+
+.carbonexOzadje
+	{
+		background-color: #ffffff;
+	}
+
+body {
+  background-image: url('../img/01_VIJUGICE.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carb
+	{
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#4a707a;
+    font-size: 1em;
+	}
+
+table {
+  border:none;
+  width: 100%;
+  padding-right: 20px;
+}
+
+td {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+mark{
+  background-color:#c2c8c5;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#4a707a;
+    font-size: 1em;
+  border-radius: 5px;
+  padding:2px;
+}
+
+.gumb{
+  background-color:#c2c8c5;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  color:#4a707a;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.search {
+    width: min-content;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search:active {
+    background-color:#a2a8a5;
+}
+
+.padding1 {
+    padding: 10px;
+}
+
+.gumbMejhn{
+  background-color:#c2c8c5;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  border-radius: 5px;
+  color:#4a707a;
+  margin: 5px;
+  padding: 10px 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.rezultat {
+    margin-top: 20px;
+}

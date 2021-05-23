@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,900" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection"/>
+  <script type="text/javascript" src="carbonex.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="carbonx.css"/>
+  <title>Carbonex</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col s5">
+      <h2 class="carbonexCarb"> CARBONEX</h2>
+      <b class="carbonexPisava">Do something while you can</b></div>
+    <div class="col s4 offset-s3 right-align">
+      <h2 class="carbonexCarb"> NAME SURNAME</h2>
+      <b class="carbonexPisava">x points</b></div>
+  </div>
+  <div class="center-align">
+    <h1 class="carbonex">WHERE TO?</h1>
+    <nav>
+      <div class="nav-wrapper">
+        <form Class="carbonexOzadje">
+          <input id="search" type="search" class="carbonexMeni" required>
+          Search
+        </form>
+      </div>
+    </nav>
+    <br>
+    <b class="carbonexPisava"> Your location is </b> <br>
+    <b class="carbonex">X</b> <br>
+    <b class="carbonexPisava"> away.</b>
+    <ul class="collapsible meniPisava">
+      <li class="carbonexOzadje">
+        <div class="collapsible-header carbonexMeni"><i class="material-icons">expand_more</i>BUS</div>
+        <div class="collapsible-body carbonexPisava">
+        <span>
+          <div class="row">
+          <table class="col s10">
+          <tr> <td class="right-align">From</td>   <td> <mark id="fromBus">Glince </mark></td> </tr>
+          <tr><td class="right-align">To</td>    <td> <mark id="toBus">Astra</mark></td> </tr>
+          <tr><td class="right-align">Bus number</td>    <td><mark id="numberBus"> 6 </mark></td> </tr>
+          <tr><td class="right-align">Time of departure </td>    <td><mark id="departureBus"> 16:35</mark></td> </tr>
+          <tr><td class="right-align">Time of arrival</td>    <td> <mark id="arrivalBus">16:55</mark></td> </tr>
+          <tr><td class="right-align">Time of travel</td>   <td><mark id="timeBus"> 20 min </mark></td> </tr>
+            <tr><td class="right-align carb">TREES SAVED</td>   <td><mark id="treesBus"> 1,7 </mark></td> </tr>
+          </table>
+            <div class="row">
+            <button class="btn gumb" id="gumbBus"><i class="material-icons">done</i> +10 POINTS</button>
+            </div>
+          </div>
+        </span></div>
+      </li>
+      <li class="carbonexOzadje">
+        <div class="collapsible-header carbonexMeni"><i class="material-icons">expand_more</i>BIKE</div>
+        <div class="collapsible-body carbonexPisava">
+        <span>
+          <div class="row">
+          <table class="col s10">
+          <tr><td class="right-align">To</td>    <td> <mark id="toBike">Astra</mark></td> </tr>
+          <tr><td class="right-align">Time of travel</td>   <td><mark id="timeBike"> 20 min </mark></td> </tr>
+             <tr><td class="right-align">Calories burned</td>    <td> <mark id="caloriesBike">16 kJ</mark></td> </tr>
+            <tr><td class="right-align carb">TREES SAVED</td>   <td><mark id="treesBike"> 1,7 </mark></td> </tr>
+          </table>
+            <div class="row">
+            <button class="btn gumb" id="gumbBike"><i class="material-icons">done</i> +20 POINTS</button>
+            </div>
+          </div>
+        </span></div>
+      </li>
+       <li class="carbonexOzadje">
+        <div class="collapsible-header carbonexMeni"><i class="material-icons">expand_more</i>ON FOOT</div>
+        <div class="collapsible-body carbonexPisava">
+        <span>
+          <div class="row">
+          <table class="col s10">
+          <tr><td class="right-align">To</td>    <td> <mark id="toFoot">Astra</mark></td> </tr>
+          <tr><td class="right-align">Time of travel</td>   <td><mark id="timeFoot"> 20 min </mark></td> </tr>
+             <tr><td class="right-align">Calories burned</td>    <td> <mark id="caloriesFoot">16 kJ</mark></td> </tr>
+            <tr><td class="right-align carb">TREES SAVED</td>   <td><mark id="treesFoot"> 1,7 </mark></td> </tr>
+          </table>
+            <div class="row">
+            <button class="btn gumb" id="gumbFoot"><i class="material-icons">done</i> +20 POINTS</button>
+            </div>
+          </div>
+        </span></div>
+      </li>
+      <li class="carbonexOzadje">
+        <div class="collapsible-header carbonexMeni"><i class="material-icons">expand_more</i>CAR</div>
+        <div class="collapsible-body carbonexPisava">
+        <span>
+          <table>
+          <tr><td class="right-align">check for carpool</td>    <td> <button onclick="location.href = 'https://prevoz.org/';" class="btn gumbMejhn" id="gumbYes1">YES</button> <button onclick="alert('Buuu!')" class="btn gumbMejhn" id="gumbNo1">NO</button></tr>
+          <tr><td class="right-align">post to prevozi.org</td>   <td> <button onclick="location.href = 'https://prevoz.org/';" class="btn gumbMejhn" id="gumbYes2">YES</button> <button onclick="alert('Buuu!')" class="btn gumbMejhn" id="gumbNo2">NO</button></tr>
+          </table>
+        </span></div>
+      </li>
+    </ul>
+
+  </div>
+  <!--        <div class="col s4 offset-s8"><h1 class="carbonex"> NAME SURNAME</h1><b  class="carbonexPisava">x points</b></div>-->
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+</div>
+</body>
+</html>
